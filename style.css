@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #2d4933;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #ffb500;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-outline {
+    border: 2px solid #ffb500;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffb500;
+    background-color: transparent;
+}
+
+/* Product Section */
+.products {
+    background-color: #f9f9f9;
+}
+
+.products h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.product img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #e6f0ec;
+    padding: 50px 0;
+}
+
+.why-choose-us h2 {
+    margin-bottom: 40px;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature {
+    max-width: 200px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #2d4933;
+    color: white;
+    padding: 100px 0;
+}
+
+.footer h2 {
+    font-size: 32px;
+}
+
+.footer p {
+    margin: 20px 0;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature {
+    max-width: 200px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #2d4933;
+    color: white;
+    padding: 100px 0;
+}
+
+.footer h2 {
+    font-size: 32px;
+}
+
+.footer p {
+    margin: 20px 0;
+}
+.footer .btn {
+    background-color: #ffb500;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
